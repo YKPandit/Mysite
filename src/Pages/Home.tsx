@@ -10,8 +10,8 @@ function Home() {
 
                 <div className="w-1/2 bg-[#252525] position relative top-8 p-20 drop-shadow-md text-white">
 
-                    <h1>Welcome to the Home Page!</h1>
-                    <p>This is the main content of the Home page.</p>
+                    <h1>Interests</h1>
+                    <p>I love watching formula 1 and soccer</p>
                 </div>
             </div>
 
