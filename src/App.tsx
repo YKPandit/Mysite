@@ -4,17 +4,18 @@ import Home from './Pages/Home.tsx';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+
     return (
         <Router>
-            <header className="font-[Consolas] flex top-0 bg-[#333333] drop-shadow-md">
+            <header className="font-[Consolas] flex top-0 bg-[#333333] drop-shadow-md w-auto">
                 <h1 className="text-3xl text-white w-64 py-2 px-2">Yaaska Pandit</h1>
             </header>
 
             <div className="flex bg-[#1e1e1e] min-h-screen w-auto">
-                <div className="flex w-1/5">
+                <div className={"flex w-48"}>
                     <Header/> {/* Header at the top */}
                 </div>
-                <div className="flex w-4/5 justify-center">
+                <div className={"flex w-full justify-center"}>
                     <main className="">
                         <Routes>
                             <Route path="/" element={<Home/>}/>

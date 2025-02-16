@@ -2,10 +2,11 @@ import { FaHome, FaWrench, FaPaperPlane, FaCamera } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Header() {
+
     return (
         <div className="font-[Consolas]">
 
-            <div className="inline-block top-0 bg-[#333333] font-medium h-screen w-48 py-4 drop-shadow-md">
+            <div className="inline-block top-0 bg-[#333333] font-medium h-full w-48 py-4 drop-shadow-md">
 
                 <div className="group flex justify-left text-white py-2 px-2 hover:bg-[#5B5B5B]">
                     <div className="flex items-center justify-left bg-[#333333] group-hover:bg-[#5B5B5B]">
